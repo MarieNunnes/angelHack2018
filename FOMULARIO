@@ -1,0 +1,165 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+ 	
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Cadastre-se</title>
+
+ 	<!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/device-mockups/device-mockups.css">
+
+    <!-- Theme CSS -->
+    <link href="css/new-age.css" rel="stylesheet">
+
+ </head>
+ <body>
+ <h1>Informe seus dados</h1>
+ <h2>Preenche o formulário com suas informações</h2>
+ <form action="Script_do_Formulario.php" method="post">
+
+<!-- DADOS PESSOAIS-->
+<!--<fieldset> -->
+ <legend>Dados Pessoais</legend>
+ <table cellspacing="12">
+  <tr>
+   <td>
+    <label for="nome">Nome completo: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome completo" size="50" maxlength="50">
+   </td>
+   </tr>
+   <tr>
+   <td>
+    <label>Data de nascimento: </label>
+   </td>
+   <td align="left">
+   <input type="text" name="dia/mes/ano" size="10" maxlength="10" value="dd/mm/aaaa"> 
+   <!--<input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">-->
+   </td>
+  </tr>
+  <td>
+    <label for="email">Email: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="email" size="30" maxlength="30">
+   </td>
+  </tr>
+   <tr>
+   <td>
+    <label for="nome">Endereço: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="endereço" size="50" maxlength="50">
+   </td>
+   </tr>
+   <tr>
+   <td>
+    <label for="cep">CEP: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+   </td>
+  </tr>
+   <tr>
+   <td>
+    <label for="bairro">Bairro: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="bairro">
+   </td>
+  </tr>
+   <tr>
+   <td>
+   <label for="estado">Estado:</label>
+   </td>
+   <td align="left">
+    <select name="estado"> 
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+   </select>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="cidade">Cidade: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="cidade">
+   </td>
+  </tr
+  <tr>
+   <td>
+    <label for="linguas">Línguas: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="linguas" size="20" maxlength="20"> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label>Areas de conhecimentos:</label>
+   </td>
+   <td align="center">
+    <input type="text" name="areas de conhecimentos" size="400" maxlength="400"> <!-- <input type="text" 
+    name="areas de conhecimentos" size="2" maxlength="2">-->
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label>Skills:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="skills" size="200" maxlength="200"> <!--- <input type="text" name="skills" size="10" 
+    maxlength="10">-->
+   </td>
+  </tr>
+ </table>
+</fieldset>
+<br/>	
+
+ </nav> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+ </body>
+ </html>
